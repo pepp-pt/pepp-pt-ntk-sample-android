@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/OnboardingRegistrationLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/pepp-pt-logo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/image_content_desc_pepppt_logo"
+            android:paddingLeft="85dp"
+            android:paddingRight="85dp"
+            app:srcCompat="@drawable/ic_pepppt_logo" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pepp-pt-heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/onboarding_welcome_pepppt_heading_1"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pepp-pt-heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:isScrollContainer="false"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/onboarding_welcome_pepppt_heading_2"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/welcome-itemplus-1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/image_content_desc_listitem_icon"
+                            android:paddingTop="2dp"
+                            app:srcCompat="@drawable/ic_item_plus" />
+
+                        <TextView
+                            android:id="@+id/welcome-item-1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/onboarding_welcome_listitem_1"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:lineHeight="22sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/welcome-itemplus-2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/image_content_desc_listitem_icon"
+                            android:paddingTop="2dp"
+                            app:srcCompat="@drawable/ic_item_plus" />
+
+                        <TextView
+                            android:id="@+id/welcome-item-2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/onboarding_welcome_listitem_2"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:lineHeight="22sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/welcome-itemplus-3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/image_content_desc_listitem_icon"
+                            android:paddingTop="2dp"
+                            app:srcCompat="@drawable/ic_item_plus" />
+
+                        <TextView
+                            android:id="@+id/welcome-item-3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="16dp"
+                            android:text="@string/onboarding_welcome_listitem_3"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:lineHeight="22sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/welcome-text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@color/colorBlack"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/onboarding_welcome_text"
+                    android:textColor="@color/colorWhite"
+                    app:lineHeight="22sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/welcomeButton"
+        style="@style/ButtonStyle"
+        android:layout_width="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="welcomeButtonOnClick"
+        android:text="@string/onboarding_welcome_button_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

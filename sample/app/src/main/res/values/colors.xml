@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E20613</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorPressed">#A42012</color>
+    <color name="colorDisabled">#CBCBCB</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="coloryBackground">#FFFFFF</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="seek_bar_background">#ababab</color>
+    <color name="seek_bar_progress">#00b6ff</color>
+    <color name="seek_bar_secondary_progress">#3399CC</color>
+    <color name="seek_bar_red">#FF0000</color>
+    <color name="button_background_red">#FF0000</color>
+    <color name="button_background_yellow">#FF9900</color>
+    <color name="button_background_green">#009900</color>
+    <color name="button_background_primary_disabled">#B7D3FF</color>
+</resources>

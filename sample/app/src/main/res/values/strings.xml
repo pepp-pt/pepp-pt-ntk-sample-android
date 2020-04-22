@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">PEPP-PT Sample</string>
+
+    <!-- Common labels -->
+    <string name="image_content_desc_pepppt_logo">PEPP-PT Logo</string>
+    <string name="image_content_desc_listitem_icon">List item icon</string>
+    <string name="general_error">An unspecified error occurred.</string>
+
+    <!-- Activitiy owned labels -->
+
+    <!--    Onboarding     -->
+    <!--    Onboarding: Welcome -->
+    <string name="onboarding_welcome_pepppt_heading_1">Pan-European</string>
+    <string name="onboarding_welcome_pepppt_heading_2">Privacy-Preserving Proximity Tracing</string>
+    <string name="onboarding_welcome_button_primary">Let\'s start</string>
+    <string name="onboarding_welcome_listitem_1">Location data is never collected</string>
+    <string name="onboarding_welcome_listitem_2">Uses Bluetooth without connections</string>
+    <string name="onboarding_welcome_listitem_3">Data cannot be accessed without user\'s active confirmation</string>
+    <string name="onboarding_welcome_text">PEPP-PT will sense other PEPP-PT apps in your proximity and saves this encounter securely on your phone only.\n\nIf some other PEPP-PT user who was in your close proximity for a couple of minutes is tested positive for COVID-19 the app is able to notify you.\n\nNo username or personal information is required.</string>
+
+    <!--    Onboarding: Registration -->
+    <string name="onboarding_registration_heading">Registration</string>
+    <string name="onboarding_registration_sub_headline">No username or personal information required</string>
+    <string name="onboarding_registration_request_text">We need your consent and confirmation to:</string>
+    <string name="onboarding_registration_listitem_1">Save PEPP-PT signals on your phone</string>
+    <string name="onboarding_registration_listitem_2">Create a pseudonymous ID</string>
+    <string name="onboarding_registration_listitem_3">Use Bluetooth on your phone</string>
+    <string name="onboarding_registration_listitem_4">Run PEPP-PT in the background</string>
+    <string name="onboarding_registration_terms_link"><u>Read the Terms &amp; Conditions</u></string>
+    <string name="onboarding_registration_terms_text">I agree to the Terms &amp; Conditions and I want to contribute my proximity information to PEPP-PT in a pseudonymous manner for fast infection chain analysis.</string>
+    <string name="onboarding_registration_button_primary">Sign up and help</string>
+
+    <!--    Onboarding: Permissions -->
+    <string name="onboarding_permissions_heading">Permissions</string>
+    <string name="onboarding_permissions_sub_headline">You need to grant access</string>
+    <string name="onboarding_permissions_request_text">These permissions are required for the app to work correctly:</string>
+    <string name="onboarding_permissions_listitem_1">Access to your location</string>
+    <string name="onboarding_permissions_listitem_1_desc">PEPP-PT will never access location information or GPS on your phone. The Android OS requires to get this permission in order for Bluetooth to work correctly with PEPP-PT.</string>
+    <string name="onboarding_permissions_listitem_2">Use Bluetooth</string>
+    <string name="onboarding_permissions_listitem_2_desc">The app uses Bluetooth Low Energy and scans your proximity to find other PEPP-PT apps. If other PEPP-PT apps are found, the app will save this encounter locally on your phone.</string>
+    <string name="onboarding_permissions_listitem_3">Ignore Battery Optimization</string>
+    <string name="onboarding_permissions_listitem_3_desc">To allow proper operation in the background e.g. while surfing the web, messaging or listening to music, the app needs extended permission to set battery optimization settings for itself.</string>
+    <string name="onboarding_permissions_terms_link">Read the Terms &amp; Conditions</string>
+    <string name="onboarding_permissions_terms_text">I agree to the Terms &amp; Conditions and I want to contribute my proximity information to PEPP-PT in a pseudonymous manner for fast infection chain analysis.</string>
+    <string name="onboarding_permissions_button_primary">I agree</string>
+
+    <!--    Main     -->
+    <!--    Main: Scanner -->
+    <string name="main_scanner_heading">Proximity Tracer</string>
+    <string name="main_scanner_sub_headline">Overview</string>
+    <string name="main_scanner_running">Your PEPP-PT proximity tracer is active!</string>
+    <string name="main_scanner_listitem_0">Unique Encounters:</string>
+    <string name="main_scanner_listitem_1">Proximity signals sent:</string>
+    <string name="main_scanner_listitem_2">Proximity signals received:</string>
+    <string name="main_scanner_listitem_3">PEPP-PT active for:</string>
+    <string name="main_scanner_button_primary">Data &amp; Usage &gt;</string>
+
+    <!--    Main: DataUsage -->
+    <string name="main_data_heading">Data &amp; Usage</string>
+    <string name="main_data_sub_headline">All information in one place</string>
+    <string name="main_data_listitem_1">Do I need to do anything?</string>
+    <string name="main_data_listitem_1_desc">No - PEPP-PT will just run in the background. Only and if someone else who was very close to you over a couple of minutes was tested positive for COVID-19, then you might get a notification.</string>
+    <string name="main_data_listitem_2">I received a notification.</string>
+    <string name="main_data_listitem_2_desc">If you received a notification, please consult your physician or test center. Make sure to distance yourself from others and try to self-quarantine. Contact your health-authorities for help:\n0800-HELPCOVID19\nIf you want to provide your data and received a notification, follow the advise of your doctor or health authority.</string>
+    <string name="main_data_no_action_text">No need to upload your data. Only in the case you are notified.</string>
+    <string name="main_data_button_primary">&lt; Back</string>
+
+    <!-- Uploaddata -->
+    <string name="upload_data_heading">Upload Data</string>
+    <string name="upload_data_yourtan">Generating your TAN</string>
+    <string name="upload_data_callthisnumber">To activate the Upload, please call this number and follow the instructions of the employee</string>
+    <string name="upload_data_theNumber">0800-C0VID-19</string>
+    <string name="upload_data_agree">Yes, I agree</string>
+    <string name="upload_data_startupload">Start Upload</string>
+    <string name="upload_data_tan_request_failed">TAN request failed</string>
+    <string name="upload_data_tan_activation_failed">TAN activation failed</string>
+    <string name="upload_data_upload_failed">Upload failed</string>
+    <string name="upload_data_tan_state_generating">Generating...</string>
+    <string name="upload_data_tan_state_waiting_for_activating">Waiting for upload activation ...</string>
+    <string name="upload_data_start_upload">Start Upload</string>
+
+    <!-- Upload_Finished -->
+    <string name="upload_finished_heading">Upload Finished</string>
+    <string name="upload_finished_textview_description">Thank you very much, the app has done its job and is now stopping. You can now uninstall it. If you want to continue collecting data, you must reinstall the app. This is necessary to ensure data protection.</string>
+    <string name="upload_finished_uninstall">Uninstall</string>
+
+
+    <string name="service_notification_title">Proximity Sensor active.</string>
+    <string name="service_notification_text">PEPP-PT proximity sensor active in the background.</string>
+    <string name="button_export_all">Upload</string>
+    <string name="error_export_all">Upload failed:</string>
+    <string name="error_export_no_data">No data available!</string>
+    <string name="missing_permission_title">Missing permission.</string>
+    <string name="missing_permission_text">Important permissions are missing for starting the PEPP-PT service.</string>
+    <string name="keep_bt_on_title">Bluetooth service disabled.</string>
+    <string name="keep_bt_on_text">The Bluetooth service was enabled again.</string>
+    <string name="permissions_view_headline">Permissions</string>
+    <string name="permissions_view_intro">These permissions are required for running the app on your phone.</string>
+    <string name="permissions_view_location_headline">Access to your location</string>
+    <string name="permissions_view_location_explanation">PEPP-PT will never access location information or GPS on your phone. The Android OS requires to get this permission in order for Bluetooth to work correctly with PEPP-PT.</string>
+    <string name="permissions_view_bluetooth_headline">Use Bluetooth</string>
+    <string name="permissions_view_bluetooth_explanation">The app uses Bluetooth Low Energy and scans your proximity to find other PEPP-PT apps. If other PEPP-PT apps are found, the app will save this encounter locally on your phone.</string>
+    <string name="permissions_view_battery_optimization_headline">Ignore Battery Optimization</string>
+    <string name="permissions_view_battery_optimization_explanation">To allow proper operation in the background. e.g. while surfing the web, messaging, or listening to music, the app needs extended permission to set battery optimization settings for itself.</string>
+    <string name="permissions_view_button_iagree">OK - I agree</string>
+    <string name="export_all_success">Data successfully uploaded. Thank You!</string>
+    <string name="error_no_internet">Please check your Internet connection.</string>
+    <string name="error_api_not_return_token">ERROR: No reply when requesting TOKEN!</string>
+    <string name="error_api_not_reachable">ERROR: PEPP-PT backend cannot be contacted!</string>
+    <string name="notification_dataupload_title">Uploading data</string>
+    <string name="notification_dataupload_finished_success_title">Data successfully uploaded.</string>
+    <string name="notification_dataupload_finished_faild_title">Data not uploaded.</string>
+    <string name="notification_dataupload_description">DATA-UPLOAD-DESCRIPTION</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- Messages -->
+    <string name="messages_heading">Messages</string>
+    <string name="notification_new_notification">Attention, you have an important message</string>
+    <string name="notification_new_notification_subtitle">Please touch to get the details</string>
+    <string name="messages_no_messages">there are currently no messages</string>
+
+    <string name="appchannelid">sample-id</string>
+    <string name="appchannelname">sample channelname</string>
+    <string name="appchanneldesc">sample description</string>
+
+    <string name="permission_requestexplanation_title">A PEPP-PT permssion request needs your attention.</string>
+    <string name="permission_explanation_bluethooth">PEPP-PT uses Bluetooth Low Energy to find other PEPP-PT apps.</string>
+    <string name="permission_explanation_access_coarse_location">The PEPP-PT cannot function without access to Bluetooth - this permission unfortunately also requires location access permssion.</string>
+    <string name="permission_explanation_access_background_location">Background access to location is required for the Bluetoth background activity of the PEPP-PT tracer.</string>
+    <string name="permission_explanation_request_ignore_battery_optimizations">To allow proper operation in the background. e.g. while surfing the web, messaging, or listening to music, the app needs extended permission to set battery optimization settings for itself.</string>
+
+    <!-- UNUSED -->
+    <!--
+    <string name="welcome_title">HOW can this\nApp HELP us?</string>
+    <string name="textView_Description">Die App findet über Bluetooth andere Proximity Apps in Deiner Nähe und zeichnet diese Begegnungen anonym auf. Alle Daten bleiben auf Deinem Telefon und werden auf Deinem Telefon sicher und verschlüsselt gespeichert.
+\n\nSollte jemand, der länger in Deiner Nähe war, positiv getestet werden, kannst Du über die App gewarnt werden.</string>
+    <string name="textView_protectSlogan">Protect YOURSELF\nand OTHERS</string>
+    <string name="textView_permissions_list">- Location, wird gebraucht für die Bluetooth Funktion auf Deinem Telefon.\n- Bluethooth, wird zur Nutzung von Bluetooth auf Deinem Telefon benötigt.\n- Wenn weitere Berechtigungen angefordert werden, bitte erlaube der App die Nutzung.</string>
+    <string name="permission_explanation_access_fine_location">Diese Berechtigung wird für die Bluetooth Funktion benötigt.</string>
+    -->
+
+</resources>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <!--  Non focused states -->
+    <item android:state_enabled="true" android:state_focused="false" android:state_selected="false" android:state_pressed="false">
+        <aapt:attr name="android:drawable">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/colorPrimary" />
+                <corners android:radius="6dp" />
+            </shape>
+        </aapt:attr>
+    </item>
+    <item android:state_enabled="true" android:state_focused="false" android:state_selected="true" android:state_pressed="false">
+        <aapt:attr name="android:drawable">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/colorPrimary" />
+                <corners android:radius="6dp" />
+            </shape>
+        </aapt:attr>
+    </item>
+    <!--  Focused states -->
+    <item android:state_enabled="true" android:state_focused="true" android:state_selected="false" android:state_pressed="false">
+        <aapt:attr name="android:drawable">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/colorPrimary" />
+                <corners android:radius="6dp" />
+            </shape>
+        </aapt:attr>
+    </item>
+    <item android:state_enabled="true" android:state_focused="true" android:state_selected="true" android:state_pressed="false">
+        <aapt:attr name="android:drawable">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/colorPrimary" />
+                <corners android:radius="6dp" />
+            </shape>
+        </aapt:attr>
+    </item>
+    <!--  Pressed -->
+    <item android:state_enabled="true" android:state_pressed="true" >
+        <aapt:attr name="android:drawable">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/colorPressed" />
+                <corners android:radius="6dp" />
+            </shape>
+        </aapt:attr>
+    </item>
+    <!--  Pressed -->
+    <item android:state_enabled="false" >
+        <aapt:attr name="android:drawable">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/colorDisabled" />
+                <corners android:radius="6dp" />
+            </shape>
+        </aapt:attr>
+    </item>
+</selector>
